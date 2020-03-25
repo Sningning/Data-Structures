@@ -1,7 +1,7 @@
 # Data-Structures
 
 <div align="center">
-    <img src="https://cdn.jsdelivr.net/gh/Sningning/Blog-Pictures/blog_pics/logologo_blank.png" width="">
+    <img src="https://cdn.jsdelivr.net/gh/Sningning/BlogPictures/logo_blank.png" width="">
 </div>
 
 ---
