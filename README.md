@@ -1,4 +1,4 @@
-# Data-Structures
+# DataStructures
 
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/Sningning/BlogPictures/logo_blank.png" width="">
