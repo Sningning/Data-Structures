@@ -80,7 +80,7 @@ public class LinkedList<E> {
     public E get(int index) {
 
         if (index < 0 || index > size)
-            throw new IllegalArgumentException("Add failed. Illegal index.");
+            throw new IllegalArgumentException("Get failed. Illegal index.");
 
         // 要找第 index 位置的元素，因此从 dummyHead.next 开始遍历，即整个链表第一个元素开始遍历
         Node cur = dummyHead.next;
@@ -147,6 +147,7 @@ public class LinkedList<E> {
         Node retNode = prev.next;
         prev.next = retNode.next;
         retNode.next = null;
+        size--;
 
         return retNode.e;
     }
