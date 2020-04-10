@@ -47,13 +47,16 @@ public class ArrayQueue<E> implements Queue<E> {
 
     @Override
     public String toString() {
+
         StringBuilder res = new StringBuilder();
         res.append("Queue: ");
         res.append("front [");
-        for(int i = 0 ; i < array.getSize() ; i ++){
+        for(int i = 0 ; i < array.getSize() ; i ++) {
+
             res.append(array.get(i));
-            if(i != array.getSize() - 1)
+            if(i != array.getSize() - 1) {
                 res.append(", ");
+            }
         }
         res.append("] tail");
         return res.toString();
@@ -62,6 +65,7 @@ public class ArrayQueue<E> implements Queue<E> {
 
     // 测试用例
     public static void main(String[] args) {
+        
         ArrayQueue<Object> queue = new ArrayQueue<>();
         for(int i = 0 ; i < 10 ; i ++){
             queue.enqueue(i);

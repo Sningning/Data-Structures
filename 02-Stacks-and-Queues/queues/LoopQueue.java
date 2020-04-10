@@ -9,7 +9,6 @@
  *
  *  队满条件为：(tail + 1) % data.length == front
  *  队空条件为：front == tail
- *  队列长度为：(tail - front + QueueSize) % data.length
  *
  * @author: Song Ningning
  * @date: 2020-03-03 20:29
@@ -20,18 +19,19 @@ public class LoopQueue<E> implements Queue<E> {
     private int front, tail;
     private int size;
 
-    public LoopQueue(int capacity){
+    public LoopQueue(int capacity) {
+
         data = (E[]) new Object[capacity + 1];
         front = 0;
         tail = 0;
         size = 0;
     }
 
-    public LoopQueue(){
+    public LoopQueue() {
         this(10);
     }
 
-    public int getCapacity(){
+    public int getCapacity() {
         return data.length - 1;
     }
 
@@ -59,16 +59,16 @@ public class LoopQueue<E> implements Queue<E> {
     @Override
     public E dequeue() {
 
-        if (isEmpty())
+        if (isEmpty()) {
             throw new IllegalArgumentException("Cannot dequeue from an empty queue.");
-
+        }
         E ret = data[front];
         data[front] = null;
         front = (front + 1) % data.length;
         size --;
-        if (size == getCapacity() / 4 && getCapacity() / 2 != 0)
+        if (size == getCapacity() / 4 && getCapacity() / 2 != 0) {
             resize(getCapacity() / 2);
-
+        }
         return ret;
     }
 
@@ -87,9 +87,9 @@ public class LoopQueue<E> implements Queue<E> {
 
     @Override
     public E getFront() {
-        if (isEmpty())
+        if (isEmpty()) {
             throw new IllegalArgumentException("Queue is empty.");
-
+        }
         return data[front];
     }
 
@@ -113,8 +113,9 @@ public class LoopQueue<E> implements Queue<E> {
 
     // 测试用例
     public static void main(String[] args) {
+        
         LoopQueue<Integer> queue = new LoopQueue<>();
-        for(int i = 0 ; i < 10 ; i ++){
+        for(int i = 0 ; i < 10 ; i ++) {
             queue.enqueue(i);
             System.out.println(queue);
 

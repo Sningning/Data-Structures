@@ -159,6 +159,7 @@ public class Array<E> {
 
     @Override
     public String toString() {
+        
         StringBuilder res = new StringBuilder();
         res.append(String.format("Array: size = %d, capacity = %d\n", size, data.length));
         res.append("[");

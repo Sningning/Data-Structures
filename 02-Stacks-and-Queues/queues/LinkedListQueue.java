@@ -57,9 +57,10 @@ public class LinkedListQueue<E> implements Queue<E> {
 
     @Override
     public E dequeue() {
-        if (isEmpty())
-            throw new IllegalArgumentException("Cannot dequeue from an empty queue.");
 
+        if (isEmpty()) {
+            throw new IllegalArgumentException("Cannot dequeue from an empty queue.");
+        }
         Node retNode = head;
         head = head.next;
         retNode.next = null;
@@ -71,8 +72,10 @@ public class LinkedListQueue<E> implements Queue<E> {
 
     @Override
     public E getFront() {
-        if (isEmpty())
+
+        if (isEmpty()) {
             throw new IllegalArgumentException("Queue is empty.");
+        }
         return head.e;
     }
 
@@ -88,6 +91,7 @@ public class LinkedListQueue<E> implements Queue<E> {
 
     @Override
     public String toString() {
+
         StringBuilder res = new StringBuilder();
         res.append("Queue: front ");
 
@@ -104,11 +108,11 @@ public class LinkedListQueue<E> implements Queue<E> {
     public static void main(String[] args){
 
         LinkedListQueue<Integer> queue = new LinkedListQueue<>();
-        for(int i = 0 ; i < 10 ; i ++){
+        for(int i = 0 ; i < 10 ; i ++) {
             queue.enqueue(i);
             System.out.println(queue);
 
-            if(i % 3 == 2){  // 每隔 3 个就出队 1 个元素
+            if(i % 3 == 2) {  // 每隔 3 个就出队 1 个元素
                 queue.dequeue();
                 System.out.println(queue);
             }
