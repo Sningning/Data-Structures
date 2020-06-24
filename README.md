@@ -3,7 +3,6 @@
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/Sningning/BlogPictures/logo_blank.png" width="">
 </div>
-
 ---
 
 在慕课网学习了刘宇波老师的《玩转数据结构》课程，为了便于回顾，将每章内容整理，逐步发布到个人博客 [菜鸟小宋](https://sningning.github.io/)，这个仓库是每章最后实现的代码。
@@ -30,3 +29,4 @@
 - [玩转数据结构](https://coding.imooc.com/class/207.html)
 - [算法(第4版)](https://book.douban.com/subject/19952400/)
 - [Algorithms(4th edition)](https://book.douban.com/subject/10432347/)
+- [数据结构和算法动态可视化](https://visualgo.net/zh)
