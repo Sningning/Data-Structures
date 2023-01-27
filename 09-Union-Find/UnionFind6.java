@@ -1,7 +1,7 @@
 /**
  * @Classname: UnionFind6
  * @Description: TODO
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-18 12:23
  */
 // Path-Compression-2

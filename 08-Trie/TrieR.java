@@ -3,7 +3,7 @@ import java.util.TreeMap;
 /**
  * @Classname: TrieR
  * @Description: TODO
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-17 14:48
  */
 

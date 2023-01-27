@@ -1,7 +1,7 @@
 /**
  * @Classname: UF
  * @Description: 并查集接口
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-18 10:05
  */
 public interface UF {

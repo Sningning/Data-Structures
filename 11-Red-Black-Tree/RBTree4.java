@@ -4,7 +4,7 @@
  *
  *  Red-Black Tree
  *
- * @Author: Song Ningning
+ * @author: Sningning
  * @Date: 2020-03-22 13:56
  */
 

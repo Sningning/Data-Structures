@@ -3,7 +3,7 @@ package map;
 /**
  * @Classname: LinkedListMap
  * @Description: 链表实现映射
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-11 13:00
  */
 public class LinkedListMap<K, V> implements Map<K, V> {

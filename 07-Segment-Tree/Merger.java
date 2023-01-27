@@ -1,7 +1,7 @@
 /**
  * @Classname: Merger
  * @Description: TODO
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-15 18:41
  */
 public interface Merger<E> {

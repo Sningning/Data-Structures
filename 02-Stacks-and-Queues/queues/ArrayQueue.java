@@ -1,7 +1,7 @@
 /**
  * @Classname: ArrayQueue
  * @Description: 用动态数组实现队列
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-03 18:43
  */
 public class ArrayQueue<E> implements Queue<E> {

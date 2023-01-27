@@ -3,9 +3,9 @@
 <div align="center">
     <img src="https://cdn.jsdelivr.net/gh/Sningning/BlogPictures/logo_blank.png" width="">
 </div>
----
 
-在慕课网学习了刘宇波老师的《玩转数据结构》课程，为了便于回顾，将每章内容整理，逐步发布到个人博客 [菜鸟小宋](https://sningning.github.io/)，这个仓库是每章最后实现的代码。
+
+在慕课网学习了刘宇波老师的《玩转数据结构》课程，为了便于回顾，将每章内容整理，这个仓库是每章最后实现的代码。
 
 | **内容** | **代码** |
 | :---: | :---: |

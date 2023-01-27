@@ -1,7 +1,7 @@
 /**
  * @Classname: Stack
  * @Description: 栈接口
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-03 16:22
  */
 public interface Stack<E> {

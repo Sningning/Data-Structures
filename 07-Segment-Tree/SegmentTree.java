@@ -1,7 +1,7 @@
 /**
  * @Classname: SegmentTree
  * @Description: 线段树
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-15 18:07
  */
 public class SegmentTree<E> {

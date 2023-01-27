@@ -5,7 +5,7 @@
  *  没有复用 LikedList 类
  *  不使用虚拟头结点 dummyHead
  *
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-04 17:13
  */
 public class LinkedListQueue<E> implements Queue<E> {

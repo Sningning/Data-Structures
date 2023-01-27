@@ -1,7 +1,7 @@
 /**
  * @Classname: RBTree
  * @Description:
- * @Author: Song Ningning
+ * @author: Sningning
  * @Date: 2020-03-22 11:31
  */
 

@@ -10,7 +10,7 @@
  *  队满条件为：(tail + 1) % data.length == front
  *  队空条件为：front == tail
  *
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-03 20:29
  */
 public class LoopQueue<E> implements Queue<E> {

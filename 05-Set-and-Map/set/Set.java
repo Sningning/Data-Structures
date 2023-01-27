@@ -3,7 +3,7 @@ package set;
 /**
  * @Classname: Set
  * @Description: 集合借口
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-11 10:01
  */
 public interface Set<E> {

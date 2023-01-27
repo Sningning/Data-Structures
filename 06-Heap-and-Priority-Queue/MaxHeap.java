@@ -1,7 +1,7 @@
 /**
  * @Classname: MaxHeap
  * @Description: 最大堆
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-12 11:53
  */
 public class MaxHeap<E extends Comparable<E>> {

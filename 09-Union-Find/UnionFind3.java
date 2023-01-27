@@ -1,7 +1,7 @@
 /**
  * @Classname: UnionFind3
  * @Description: 第三版 Union-Find（Quick-Union）
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-18 11:23
  */
 public class UnionFind3 implements UF {

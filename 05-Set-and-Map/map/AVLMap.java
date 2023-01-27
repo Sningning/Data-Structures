@@ -3,7 +3,7 @@ package map;
 /**
  * @Classname: AVLMap
  * @Description: AVL实现映射
- * @Author: Song Ningning
+ * @author: Sningning
  * @Date: 2020-03-18 22:27
  */
 public class AVLMap<K extends Comparable<K>, V> implements Map<K, V> {

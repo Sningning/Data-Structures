@@ -1,7 +1,7 @@
 /**
  * @Classname: PriorityQueue
  * @Description: 优先队列
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-14 13:34
  */
 public class PriorityQueue<E extends Comparable<E>> implements Queue<E> {

@@ -3,7 +3,7 @@ import java.util.TreeMap;
 /**
  * @Classname: HashTable
  * @Description:
- * @Author: Song Ningning
+ * @author: Sningning
  * @Date: 2020-03-22 22:36
  */
 public class HashTable1<K, V> {

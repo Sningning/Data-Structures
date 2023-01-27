@@ -3,7 +3,7 @@ package set;
 /**
  * @Classname: BSTSet
  * @Description: 二分搜索树实现集合
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-11 10:03
  */
 public class BSTSet<E extends Comparable<E>> implements Set<E> {

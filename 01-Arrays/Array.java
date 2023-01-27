@@ -1,7 +1,7 @@
 /**
  * @Classname: Array
  * @Description: 动态数组类
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-02 21:22
  */
 public class Array<E> {

@@ -8,7 +8,7 @@ import java.util.Stack;
  *
  * 二分搜索树 Binary Search Tree
  *
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-05 22:24
  */
 public class BST<E extends Comparable<E>> {
@@ -53,7 +53,7 @@ public class BST<E extends Comparable<E>> {
      * @param: node
      * @param e
      * @return: BST<E>.Node
-     * @author: Song Ningning
+     * @author: Sningning
      * @date: 2020-03-06 18:09
      */
     private Node add(Node node, E e) {

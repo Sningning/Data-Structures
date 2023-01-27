@@ -1,7 +1,7 @@
 /**
  * @Classname: ArrayStack
  * @Description: 利用动态数组实现栈
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-03 16:26
  */
 public class ArrayStack<E> implements Stack<E> {

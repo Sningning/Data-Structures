@@ -3,7 +3,7 @@ package stacks;
 /**
  * @Classname: LinkedList
  * @Description: 链表
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-04 11:44
  */
 public class LinkedList<E> {

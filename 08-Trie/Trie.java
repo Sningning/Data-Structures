@@ -4,7 +4,7 @@ import java.util.TreeMap;
 /**
  * @Classname: Trie
  * @Description: 非递归实现 Trie
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-16 20:55
  */
 
@@ -37,7 +37,7 @@ public class Trie {
      * @Description: 获得 Trie 中存储的单词数量
      * @param: null
      * @return: int
-     * @author: Song Ningning
+     * @author: Sningning
      */
     public int getSize() {
 
@@ -48,7 +48,7 @@ public class Trie {
      * @Description: 向 Trie 中添加一个新的单词 word，非递归实现
      * @param: word
      * @return: void
-     * @author: Song Ningning
+     * @author: Sningning
      */
     public void add(String word) {
 
@@ -72,7 +72,7 @@ public class Trie {
      * @Description: 查询单词 word 是否在 Trie 中，非递归实现
      * @param: word
      * @return: boolean
-     * @author: Song Ningning
+     * @author: Sningning
      */
     public boolean contains(String word) {
 
@@ -97,7 +97,7 @@ public class Trie {
      * @Description: 查询是否在 Trie 中有单词以 prefix 为前缀，非递归实现
      * @param: prefix
      * @return: boolean
-     * @author: Song Ningning
+     * @author: Sningning
      */
     public boolean isPrefix(String prefix) {
 
@@ -116,7 +116,7 @@ public class Trie {
      * @Description: 删除word, 返回是否删除成功，非递归实现
      * @param: word
      * @return: boolean
-     * @author: Song Ningning
+     * @author: Sningning
      */
     public boolean remove(String word) {
 

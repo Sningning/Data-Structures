@@ -1,7 +1,7 @@
 /**
  * @Classname: LinkedListStack
  * @Description: 利用链表实现栈
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-04 16:28
  */
 public class LinkedListStack<E> implements Stack<E> {

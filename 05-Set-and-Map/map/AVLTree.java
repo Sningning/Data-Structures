@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * @Classname: AVLTree
  * @Description:
- * @Author: Song Ningning
+ * @author: Sningning
  * @Date: 2020-03-18 16:27
  */
 

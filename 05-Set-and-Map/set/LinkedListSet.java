@@ -3,7 +3,7 @@ package set;
 /**
  * @Classname: LinkedListSet
  * @Description: 链表实现集合
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-11 10:43
  */
 public class LinkedListSet<E> implements Set<E> {

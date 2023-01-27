@@ -6,7 +6,7 @@ import java.util.TreeMap;
  *
  * 更加合理的动态扩容
  *
- * @Author: Song Ningning
+ * @author: Sningning
  * @Date: 2020-03-22 22:36
  */
 public class HashTable3<K, V> {

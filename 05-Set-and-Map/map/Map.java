@@ -3,7 +3,7 @@ package map;
 /**
  * @Classname: Map
  * @Description: 映射接口
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-11 12:57
  */
 public interface Map<K, V> {

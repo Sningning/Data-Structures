@@ -3,7 +3,7 @@ package set;
 /**
  * @Classname: AVLSet
  * @Description: AVL实现集合类
- * @Author: Song Ningning
+ * @author: Sningning
  * @Date: 2020-03-18 22:42
  */
 public class AVLSet<E extends Comparable<E>> implements Set<E> {

@@ -3,7 +3,7 @@ package map;
 /**
  * @Classname: BSTMap
  * @Description: 平衡二叉树实现映射
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-11 14:36
  */
 public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {

@@ -1,7 +1,7 @@
 /**
  * @Classname: UnionFind4
  * @Description: TODO
- * @author: Song Ningning
+ * @author: Sningning
  * @date: 2020-03-18 11:46
  */
 public class UnionFind4 implements UF {
